@@ -24,10 +24,11 @@ California-Housing-Prediction/ │ ├── house_price_prdiction_model.ipynb #
 ## 🚀 Installation & Setup
 
 ### 1. Clone the Repository
-```bash
+bash
 git clone [https://github.com/Furqan-Majeed/California-Housing-Prediction.git]
 cd California-Housing-Prediction
-2. Install Dependencies
+
+### 2. Install Dependencies
 Make sure you have Python installed. Then run:
 
 Bash
@@ -35,7 +36,7 @@ Bash
 pip install -r requirements.txt
 (If requirements.txt is missing, install manually: pip install streamlit pandas numpy scikit-learn joblib matplotlib seaborn)
 
-3. Generate Model Files
+### 3. Generate Model Files
 Before running the app, you need the trained model files. Run the Jupyter Notebook:
 
 Open house_price_prdiction_model.ipynb.
@@ -44,7 +45,7 @@ Run all cells to train the model.
 
 This will generate forest_model.pkl and model_columns.pkl in your directory.
 
-4. Run the Application
+### 4. Run the Application
 Start the Streamlit app with the following command:
 
 Bash
